@@ -1,0 +1,390 @@
+.navbar-top {
+    display: flex;
+    margin-left:0px;
+}
+.con{
+    margin-top: 15px;
+    font-size:large;
+    font-family: monospace;
+   
+}
+.con a{
+    margin-left:30px;
+}
+.anchr{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    float:left;
+    overflow:hidden;
+   
+}
+ .dropdown.btnn{
+   border:none;
+    outline:none;
+    display:block;
+}
+ 
+.dropdown-content  li{
+    text-decoration: none;
+    display: block;
+   margin-top: -9px;
+    background-color: white;
+    
+     padding:10px;
+     
+     
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+.dropdown:hover .dropdown-content{display:block;}
+.dropdown-content li:hover{background-color: pink;}
+
+
+.middle img{
+    width:100%;
+background-image: cover;
+
+}
+/* .middle{
+    position: sticky;
+top:0px; */
+
+/* .middle{
+    position: absolute;
+    top:30px; */
+
+ .btnnn{
+     position: absolute; 
+     top:40%;
+    left:47%; 
+    /* transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); */
+    background-color: rgb(230, 90, 25);
+    color: white;
+    font-size: 13px;
+    padding:6px 10px;
+     border:none; 
+    cursor: pointer;
+    border-radius: 6px;
+    /* text-align: center; */
+}
+.middle input[type=text]:focus{outline: none;}
+
+  .stick {
+    position:sticky;
+    top:-240px;
+ } 
+  
+
+ .search-bar {
+    width: 50%;
+    height: 50px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6);
+    border:none;
+    font-size: medium;
+     position: absolute;   
+    color: rgb(244, 240, 240);
+    border-left: 6px solid orange;
+    margin-left:300px;
+     margin-top: 20%;  
+   margin-bottom: -20%; 
+ }
+ 
+ ::placeholder{
+    color:white;
+ } 
+.rate{
+    background-color:rgb(20, 20, 56);
+    padding:50px;
+    margin-top:-20px;
+   
+}
+/* .search-bar{
+    width:40%;
+    top:0px;
+    padding:10px;
+    border: 2px solid red;
+    position: sticky;
+} */
+.img1{
+    padding-left:70px;
+    
+}
+.img2{
+    padding-left:300px;
+    
+}
+.img3{
+    padding-left:300px;
+}
+.text{
+    color: white;
+    margin-left: 60px;
+} 
+.two{
+    margin-top: -65px;
+    margin-left: 60px;
+}
+.text2{
+    color: white;
+    margin-left: 25%;
+} 
+.three{
+    margin-top: -65px;
+    margin-left: 400px;
+}
+.text3{
+    color: white;
+    margin-left: 40%;
+} 
+/* hr{
+    width:100px;
+float:right;
+margin-right: 100px;
+vertical-align: middle;
+} */
+.vertical
+{
+    border: 1px solid white;
+    width:2px;
+    height:110px;
+    margin-left: 900px;
+    margin-top: -80px;
+    border-radius: 5px;
+}
+.four{
+    float: right;
+margin-top: -100px;
+}
+.img4{
+    width:200px;
+}
+.text4{
+    
+    margin-left: 70px;
+   
+}
+.text4 button{
+    background-color: orange;
+    padding:9px 20px;
+    border-radius: 20px;
+    color:white;
+    font-family:cursive;
+}
+h1{
+    text-align: center;
+    font-style: normal;
+}
+.offers{
+    display:flex;
+}
+.middle-text{
+    margin-left:100px;
+}
+header{
+    text-align: center;
+}
+.another{
+    background-color: rgb(20, 20, 58);
+}
+.enroll-start{
+    color: rgb(251, 251, 251);
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+    font-family:serif;
+}
+.login{
+    color: rgb(245, 242, 242);
+    margin-left: 300px;
+    font-size: x-large;
+    margin-top: 40px;
+}
+.in{
+    margin-left:300px ;
+    margin-top: 30px;
+    
+    border-bottom: 1px solid rgb(247, 245, 245);
+    width:500px;
+    
+}
+.code{
+    color:rgb(253, 249, 249);
+    /* border-bottom: 1px solid black; */
+    
+}
+.box{
+    width:200px;
+    margin-bottom: 10px;
+    background-color: rgb(20, 20, 58);
+     border-style: none; 
+    color: white;
+    
+    
+}
+/* custom-input{
+    display: block;
+} */
+.under{
+    margin-left: 300px;
+    font-size: larger;
+    margin-top:8px;
+}
+.side{
+    margin-left: 250px;
+    font-size: larger;
+    margin-top:8px;
+}
+.both{
+    display:flex;
+    color:white;
+}
+.terms{
+    margin-left: 300px;
+    margin-top: 40px;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.butn{
+     text-align: center; 
+     margin-top: 60px; 
+    /* background-color: orange; */
+    /* padding: 10px;
+    border-radius: 15px; */
+    font-size: larger;
+    /* box-shadow:  0 2px 10px orange; */
+}
+.ci{
+background-color: orange;
+padding: 10px;
+border-radius: 10px;
+box-shadow:  0 2px 10px orange;
+border: none;
+
+}
+.btn a{
+    background-color: orange;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+.enrol{
+    background-color:orange;
+   padding: 10px;
+   border-radius: 10px;
+
+}
+ /* .kkk button{
+    padding: 10px;
+} */
+
+
+
+.open-button{
+   border-radius: 40px;
+    float:right;
+    opacity: 0.9;
+    border: none;
+    
+    margin-top: -250px;
+    position: fixed;
+}
+ .form-popup{
+    display: none;
+    left:100px;
+    /* margin-top: -100px;
+    margin-bottom: 100px; */
+     position: fixed;  
+    bottom:0px;
+     border: 3px solid rgb(248, 244, 244); 
+    width: 300px;
+    margin-bottom: 250px;
+} 
+.form-container{
+    background-color:rgb(31, 31, 76);
+    max-width: 500px; 
+    color: white;
+    height:300px;
+}
+.in-content{
+    /* margin-left: 10px; */
+    background-color: white;
+    color: rgb(224, 119, 20);
+    /* padding-left: 10px; */
+   padding: 10px;
+
+}
+.bbb{
+    margin-left: 80%;
+    margin-top: -40px;
+   
+}
+.bttt{
+    background-color: orange;
+    padding: 6px;
+    border-radius: 5px;
+}
+.iraa{
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.area{
+    margin-top:200px;
+}
+textarea{outline:none ;}
+
+
+
+
+ /* .form-container input[type=text], .form-container input[type=password] {
+    width: 40%;
+    padding: 15px;
+    margin: 10px 0 10px 0;
+    border: none;
+    background: #948787;
+  } */
+  /* .form-container input[type=text] .form-container input[type=password] {
+    width: 60%;
+    padding: 15px;
+    margin: 10px 0 10px 0;
+    border: none;
+    background: #948787;
+  } */
+  
+  
+  /* .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  } */
+   /* .form-container .btn {
+    background-color: #e0b723;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.8;
+    margin-left: 300px;
+    
+  } 
+   */
+ 
+  
+  
+  /* .form-container .cancel {
+    background-color: red;
+  }
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }    */

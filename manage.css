@@ -1,0 +1,80 @@
+.box{
+    border:1px solid black;
+    width:600px;
+    height:400px;
+}
+h2{
+    color: rgb(23, 23, 77);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.first{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: larger;
+    color:brown;
+}
+.in-box{
+    border:1px solid black;
+    width:500px;
+    height:60px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.sec{
+    border-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.in2-box{
+    border:1px solid black;
+    width:500px;
+    height:60px;
+    margin-top: 20px;
+    margin-left: 30px;   
+}
+.thre{
+    border-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.para{
+    margin-top: 90px;
+}
+.btun{
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+button{
+    background-color: rgb(172, 134, 65);
+    border-style: none;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+.start{
+    color: brown;
+    font-size: xx-large;
+    
+    margin-bottom: 10px;
+}
+.head{
+    float:right;
+    margin-top: -40px;
+  
+}
+a{
+    padding: 15px;
+}
+.last{
+    margin-top: 40px;
+
+}
+.last a{
+    color: black;
+    font-size: smaller;
+}
+.fin{
+    float: right;
+    margin-right:300px;
+}
+

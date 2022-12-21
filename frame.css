@@ -1,0 +1,29 @@
+/* .fig1{
+    margin-left: 200px;
+    margin-top: 10px;
+} */
+ ul li{
+    font-size: larger;
+    font-family: bold;
+}
+ /* .mum{
+    margin-top: -40px;
+    margin-left: 200px;
+   
+} */
+ 
+
+
+
+.img1{
+    display: flex;
+    align-items:center; 
+    margin-top: 40px;  
+}
+.mum{
+    padding-left: 20px;
+}
+
+
+
+
